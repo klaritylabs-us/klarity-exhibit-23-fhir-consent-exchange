@@ -1,0 +1,1 @@
+{"resourceType":"Consent","status":"active","scope":{"coding":[{"system":"http://terminology.hl7.org/CodeSystem/consentscope","code":"patient-privacy"}]},"patient":{"reference":"Patient/p1"},"provision":{"period":{"start":"2026-01-01"}}}

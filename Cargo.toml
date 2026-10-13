@@ -1,0 +1,19 @@
+[package]
+name = "klarity-exhibit-23-fhir-consent-exchange"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "FHIR Consent exchange checks"
+publish = false
+
+[lib]
+name = "consent_exchange"
+path = "src/lib.rs"
+
+[[bin]]
+name = "validate-consent"
+path = "src/bin/validate_consent.rs"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
